@@ -42,11 +42,9 @@ info:
     
     
 servers:
-  - url: 'http://localhost:54888/api/camara'
-    description: Local server
-  - url: 'https://dev.cpx.invia2.com.au/api/camara'
+  - url: '{dev_url}/api/camara'
     description: Development server
-  - url: 'https://cpx.invia2.com.au/api/camara'
+  - url: '{prod_url}/api/camara'
     description: Production server
     
     
